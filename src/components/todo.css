@@ -1,0 +1,44 @@
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input-container {
+	margin-top: 16px;
+	padding-left: 0px;
+	width: 500px;
+	display: flex;
+	padding-bottom: 8px;
+}
+
+.input-container > input {
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.todos-input {
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.todos {
+	padding-left: 0px;
+	width: 500px;
+}
+
+button {
+	margin-left: auto;
+}
+
+li {
+	display: flex;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 18px;
+}
